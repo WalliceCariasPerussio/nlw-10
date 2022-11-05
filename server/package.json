@@ -5,12 +5,12 @@
   "main": "index.js",
   "scripts": {
     "dev": "tsx watch src/server.ts",
-    "prisma_studio" : "npx prisma studio"
+    "prisma_studio": "npx prisma studio"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "prisma":{
+  "prisma": {
     "seed": "tsx prisma/seed.ts"
   },
   "devDependencies": {
@@ -23,6 +23,8 @@
   "dependencies": {
     "@fastify/cors": "^8.1.1",
     "@prisma/client": "^4.5.0",
-    "fastify": "^4.9.2"
+    "fastify": "^4.9.2",
+    "short-unique-id": "^4.4.4",
+    "zod": "^3.19.1"
   }
 }
