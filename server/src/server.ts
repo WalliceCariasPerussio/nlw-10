@@ -20,7 +20,7 @@ async function bootstrap() {
 
   // Em producao isso precisa ser uma variavel ambiente
   await fastify.register(jwt,{
-    secret: 'nlwcopa'
+    secret: process.env.JWT_SECRET
   });
 
   await fastify.register(pollRoutes);

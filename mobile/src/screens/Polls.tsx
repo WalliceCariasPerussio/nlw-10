@@ -63,7 +63,7 @@ export function Polls(){
           )}
           ListEmptyComponent={() => <EmptyPollList/>}
           showsVerticalScrollIndicator={false}
-          _contentContainerStyle={{ pb: 10 }}
+          _contentContainerStyle={{ pb: 20 }}
           px={5}
         />
       }

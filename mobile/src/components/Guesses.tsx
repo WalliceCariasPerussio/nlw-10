@@ -27,8 +27,6 @@ export function Guesses({ pollId, code }: Props) {
       const response = await api.get(`/polls/${pollId}/games`);
       setGames(response.data.games);
 
-      console.log(games);
-
     } catch (error) {
 
       toast.show({
